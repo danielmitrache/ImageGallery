@@ -1,6 +1,7 @@
 import ImageCards from "./components/ImageCards"
 import NavBar from "./layouts/NavBar"
 import { useEffect, useState } from "react"
+const UNSPLASH_API_KEY = 'MmnDrCXrgm1NA8nQC6mfdHkyVI3sf-oy9yDGGdz8P7w'
 
 const App = () => {
   const [query, setQuery] = useState(localStorage.getItem("query") || "")
