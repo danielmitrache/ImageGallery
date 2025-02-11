@@ -1,8 +1,5 @@
-# React + Vite
+# Image Search WebApp using React + Tailwind and Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Web application that uses the Unsplash API for image searching. The design is fully responsive and works well on all devices. 
+<br>
+The website is deployed with Vercel here: https://image-gallery-dm.vercel.app/
