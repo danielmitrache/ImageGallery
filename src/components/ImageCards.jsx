@@ -22,7 +22,8 @@ const ImageCards = ({ images }) => {
           ))}
         </div>
       ) : (
-        <div className="text-center text-4xl text-white">Loading...</div>
+        <div className="text-center text-4xl text-white font-mono font-extrabold mt-48">No images found... <br></br>
+        Try another search!</div>
       )}
       <ImageOverlay image={selectedImage} onClose={handleCloseOverlay} />
     </div>
